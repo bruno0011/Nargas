@@ -11,9 +11,14 @@
 	<h1>É o nargas?</h1>
 	<div class="nargas">
 <button>Sim</button>
-    <video class="vvideo" autoplay="autoplay" loop="loop" controls="play">
-            <source src="src/nargas.mp4" type="video/mp4" media="video"/>
-    </video>
+<script>
+  document.querySelector('button').addEventListener('click', () => {
+      document.querySelector('video').play();
+  });
+</script>
+<video class="vvideo" autoplay="autoplay" loop="loop" controls="play">
+  <source src="src/nargas.mp4" type="video/mp4" media="video"/>
+</video>
     </div>
 </body>
 </html>

@@ -30,3 +30,10 @@ video{
     height:600px;
     width: 500px;
 }
+video {
+    width: 500px;
+}
+video {
+    margin: 0 auto;
+    width: 500px;
+}
